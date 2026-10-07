@@ -26,35 +26,35 @@
 #### 1. Instalasi Aplikasi Git (`01-install-git.md`)
 Proses instalasi Git for Windows dilakukan melalui wizard setup langkah demi langkah:
 
-1. **Select Components:** Memilih komponen utama untuk diinstal seperti *Windows Explorer integration*, *Git LFS*, dan *Scalar*[cite: 13].
-   <img width="494" height="378" alt="SS 01 Select Components" src="https://github.com/user-attachments/assets/97c9cc5a-c238-4550-a092-a17c5b6eddd7" />[cite: 13]
+1. **Select Components:** Memilih komponen utama untuk diinstal seperti *Windows Explorer integration*, *Git LFS*, dan *Scalar*.
+   <img width="494" height="378" alt="SS 01 Select Components" src="https://github.com/user-attachments/assets/97c9cc5a-c238-4550-a092-a17c5b6eddd7" />
 
-2. **Choosing Default Editor:** Memilih editor teks default untuk Git (menggunakan Vim)[cite: 14].
-   <img width="494" height="378" alt="SS 02 Editor" src="https://github.com/user-attachments/assets/b82be80a-995c-4ce1-8f5b-1c5cbbbc7bc9" />[cite: 14]
+2. **Choosing Default Editor:** Memilih editor teks default untuk Git (menggunakan Vim)
+   <img width="769" height="589" alt="image" src="https://github.com/user-attachments/assets/26c742ed-92d2-4a56-b1a4-78ab70d9e64d" />
 
-3. **Adjusting Initial Branch Name:** Menentukan nama branch utama default untuk repositori baru menjadi `main`[cite: 15].
-   <img width="494" height="378" alt="SS 03 Initial Branch" src="https://github.com/user-attachments/assets/fec9ffea-f187-43cf-952d-bc48324f9e42" />[cite: 15]
+3. **Adjusting Initial Branch Name:** Menentukan nama branch utama default untuk repositori baru menjadi `main.
+   <img width="797" height="613" alt="image" src="https://github.com/user-attachments/assets/5ba6132a-20a5-4497-89b8-95425a52450c" />
 
-4. **Adjusting PATH Environment:** Mengatur integrasi Git pada Command Prompt dan perangkat lunak pihak ketiga (*Recommended*)[cite: 16].
-   <img width="494" height="378" alt="SS 04 PATH Environment" src="https://github.com/user-attachments/assets/a27cf883-93d2-430c-9f6b-ddf932eecf13" />[cite: 16]
+4. **Adjusting PATH Environment:** Mengatur integrasi Git pada Command Prompt dan perangkat lunak pihak ketiga (*Recommended*)
+   <img width="798" height="609" alt="image" src="https://github.com/user-attachments/assets/f925ad52-023c-4bff-ba2b-d3167f9118be" />
 
-5. **Choosing SSH Executable:** Memilih *executable* SSH yang akan digunakan oleh Git (menggunakan OpenSSH eksternal)[cite: 17].
-   <img width="494" height="378" alt="SS 05 SSH Executable" src="https://github.com/user-attachments/assets/0ee1b4aa-7132-4752-bf1c-d78ecfbcbc82" />[cite: 17]
+5. **Choosing SSH Executable:** Memilih *executable* SSH yang akan digunakan oleh Git (menggunakan OpenSSH eksternal).
+  <img width="761" height="585" alt="image" src="https://github.com/user-attachments/assets/db620e02-6a6e-4c10-908f-051742664ad9" />
 
 6. **Choosing HTTPS Transport Backend:** Memilih pustaka SSL/TLS untuk koneksi HTTPS (*Windows Secure Channel library*).
-   <img width="494" height="378" alt="SS 06 HTTPS Transport" src="https://github.com/user-attachments/assets/1bd8f26a-4ee1-433e-953e-56cb2f248bbd" />
+   <img width="775" height="593" alt="image" src="https://github.com/user-attachments/assets/b757916b-a50c-453f-b526-a15ac7c6024a" />
 
 7. **Configuring Line Ending Conversions:** Memilih format konversi baris akhir (*Checkout Windows-style, commit Unix-style line endings*).
-   <img width="494" height="378" alt="SS 07 Line Ending Conversions" src="https://github.com/user-attachments/assets/eef0cb2c-0e86-4f40-8b65-654876d7fb1b" />
+   <img width="810" height="621" alt="image" src="https://github.com/user-attachments/assets/c2e8e463-055d-4308-a3c5-ae89b1ea159a" />
 
 8. **Configuring Terminal Emulator:** Memilih emulator terminal yang akan digunakan dengan Git Bash (menggunakan MinTTY).
-   <img width="494" height="378" alt="SS 08 Terminal Emulator" src="https://github.com/user-attachments/assets/f4bfbbcc-21ca-43bc-b0c6-df27d530ee23" />
+   <img width="820" height="627" alt="image" src="https://github.com/user-attachments/assets/36d45c36-9c7a-4ce4-828b-51de0fe0f05e" />
 
 9. **Choosing Default Behavior of Git Pull:** Memilih perilaku default saat menjalankan perintah `git pull` (*Merge*).
-   <img width="494" height="378" alt="SS 09 Git Pull Behavior" src="https://github.com/user-attachments/assets/e11e5fc2-921d-4eb7-a544-77e8a9390214" />
+  <img width="806" height="621" alt="image" src="https://github.com/user-attachments/assets/fd18abf1-659f-4f7d-9005-1a781fa53ee5" />
 
 10. **Choosing Credential Helper:** Memilih pengelola kredensial untuk menyimpan otentikasi Git (*Git Credential Manager*).
-    <img width="494" height="378" alt="SS 10 Credential Helper" src="https://github.com/user-attachments/assets/38ddfbd9-e64e-4e4f-bfa4-f44e59f42df1" />
+    <img width="818" height="629" alt="image" src="https://github.com/user-attachments/assets/89d0eaab-a64a-4354-a835-93e5535c712a" />
 
 ---
 
