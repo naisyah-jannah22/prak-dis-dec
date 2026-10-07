@@ -27,6 +27,7 @@
 Proses instalasi Git for Windows dilakukan melalui wizard setup langkah demi langkah:
 
 1. **Select Components:** Memilih komponen utama untuk diinstal seperti *Windows Explorer integration*, *Git LFS*, dan *Scalar*.
+   
    <img width="494" height="378" alt="SS 01 Select Components" src="https://github.com/user-attachments/assets/97c9cc5a-c238-4550-a092-a17c5b6eddd7" />
 
 2. **Choosing Default Editor:** Memilih editor teks default untuk Git (menggunakan Vim)
@@ -55,6 +56,21 @@ Proses instalasi Git for Windows dilakukan melalui wizard setup langkah demi lan
 
 10. **Choosing Credential Helper:** Memilih pengelola kredensial untuk menyimpan otentikasi Git (*Git Credential Manager*).
     <img width="818" height="629" alt="image" src="https://github.com/user-attachments/assets/89d0eaab-a64a-4354-a835-93e5535c712a" />
+    
+11. **Configuring Extra Options:** Mengaktifkan opsi *file system caching* (`core.fscache`) untuk meningkatkan performa.
+   <img width="801" height="616" alt="image" src="https://github.com/user-attachments/assets/10c0d2d5-36c7-4159-95de-dcbdbadff663" />
+
+12. **Installing:** Proses penyalinan dan ekstraksi berkas instalasi Git ke dalam sistem.
+   <img width="814" height="617" alt="image" src="https://github.com/user-attachments/assets/bce0f155-c925-47a7-8d06-206e60ebc5b6" />
+
+13. **Completing the Git Setup Wizard:** Proses instalasi Git telah selesai dilakukan.
+    <img width="793" height="607" alt="image" src="https://github.com/user-attachments/assets/76ce364f-daa7-4fc6-b66e-6b9e14d9bc62" />
+
+14. **Uji Coba Perintah Git:** Memeriksa daftar perintah utama Git melalui Command Prompt dengan perintah `git`.
+    <img width="797" height="607" alt="image" src="https://github.com/user-attachments/assets/3aeac7fc-59c9-46ef-8651-67fe81961a4c" />
+
+15. **Verifikasi Versi Git:** Memeriksa versi Git yang berhasil terpasang menggunakan perintah `git --version`.
+    ![SS 15 Version Check](tempel_SS_di_sini) 
 
 ---
 
