@@ -182,17 +182,24 @@ Melakukan pendaftaran akun dan latihan perintah dasar Git pada repository lokal:
 
 ---
 
-#### 4. Mengelola Repository Sendiri - Organisasi (`03-mengelola-repo-sendiri-organisasi.md`)
+# 4. Mengelola Repository Sendiri - Organisasi
 Membuat dan mengelola repository di bawah naungan Organisasi GitHub:
+
 1. **Membuat/Masuk ke Organisasi GitHub:**
-   Membuat atau bergabung dengan akun organisasi di GitHub.
-   ![SS Akun Organisasi](tempel_SS_di_sini)
-2. **Membuat Repository Organisasi:**
-   Membuat repository baru milik organisasi.
-   ![SS Repo Organisasi](tempel_SS_di_sini)
-3. **Manajemen Akses & Anggota Organisasi:**
-   Mengatur peran (*role*) dan hak akses anggota tim di dalam organisasi.
-   ![SS Anggota Organisasi](tempel_SS_di_sini)
+   Pengecekan status keanggotaan organisasi pada menu pengaturan akun GitHub.
+   <img width="940" height="494" alt="image" src="https://github.com/user-attachments/assets/4ed2c127-c790-4a87-84ff-c58a13774bff" />
+
+2. **Pengisian Detail Organisasi Baru:**
+   Pengisian form nama organisasi (`prak-disdec-utdi`), email kontak, serta kepemilikan organisasi.
+   <img width="940" height="511" alt="image" src="https://github.com/user-attachments/assets/d973ece8-ec9e-4978-923b-0e1016ecc1a9" />
+
+3. **Penambahan Anggota Organisasi:**
+   Halaman konfirmasi awal untuk menambahkan anggota tim ke dalam organisasi.
+   <img width="940" height="471" alt="image" src="https://github.com/user-attachments/assets/2b014880-6761-4c35-9b46-b466a31f7541" />
+
+4. **Dashboard Utama Organisasi:**
+   Tampilan utama *Overview* dari organisasi `prak-disdec-utdi` setelah pengaturan selesai dibuat.
+<img width="940" height="491" alt="image" src="https://github.com/user-attachments/assets/700edbdc-394d-444e-84d3-37c9bcdedaa8" />
 
 ---
 
