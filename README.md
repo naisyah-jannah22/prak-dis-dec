@@ -25,27 +25,36 @@
 
 #### 1. Instalasi Aplikasi Git (`01-install-git.md`)
 Proses instalasi Git for Windows dilakukan melalui wizard setup langkah demi langkah:
-1. **License Agreement:** Menyetujui lisensi penggunaan Git.
-  <img width="496" height="377" alt="image" src="https://github.com/user-attachments/assets/50d4a021-e54d-424e-b646-657a5bd18f9a" />
 
-2. **Select Destination Location:** Menentukan folder instalasi di `C:\Program Files\Git`.
-   ![SS 02 Path](tempel_SS_di_sini)
-3. **Select Components:** Memilih komponen utama (Git Bash, Git GUI, dll).
-  img width="494" height="378" alt="image" src="https://github.com/user-attachments/assets/97c9cc5a-c238-4550-a092-a17c5b6eddd7" /><
+1. **Select Components:** Memilih komponen utama untuk diinstal seperti *Windows Explorer integration*, *Git LFS*, dan *Scalar*[cite: 13].
+   <img width="494" height="378" alt="SS 01 Select Components" src="https://github.com/user-attachments/assets/97c9cc5a-c238-4550-a092-a17c5b6eddd7" />[cite: 13]
 
-4. **Choosing Default Editor:** Memilih editor teks default untuk Git.
-   ![SS 04 Editor](tempel_SS_di_sini)
-5. **Adjusting Initial Branch Name:** Menentukan nama branch utama default (`main`).
-   ![SS 05 Branch](tempel_SS_di_sini)
-6. **Adjusting PATH Environment:** Mengatur integrasi Git pada Command Prompt dan terminal.
-   ![SS 06 PATH](tempel_SS_di_sini)
-7. **Configuring Line Ending Conversions:** Memilih format konversi baris (`core.autocrlf`).
-   ![SS 07 Line Ending](tempel_SS_di_sini)
-8. **Configuring Extra Options:** Mengaktifkan opsi *file system caching*.
-   ![SS 08 Extra Options](tempel_SS_di_sini)
-9. **Verifikasi Instalasi:** Memeriksa versi Git melalui terminal.
-   * Perintah: `git --version`
-   ![SS 09 Version Check](tempel_SS_di_sini)
+2. **Choosing Default Editor:** Memilih editor teks default untuk Git (menggunakan Vim)[cite: 14].
+   <img width="494" height="378" alt="SS 02 Editor" src="https://github.com/user-attachments/assets/b82be80a-995c-4ce1-8f5b-1c5cbbbc7bc9" />[cite: 14]
+
+3. **Adjusting Initial Branch Name:** Menentukan nama branch utama default untuk repositori baru menjadi `main`[cite: 15].
+   <img width="494" height="378" alt="SS 03 Initial Branch" src="https://github.com/user-attachments/assets/fec9ffea-f187-43cf-952d-bc48324f9e42" />[cite: 15]
+
+4. **Adjusting PATH Environment:** Mengatur integrasi Git pada Command Prompt dan perangkat lunak pihak ketiga (*Recommended*)[cite: 16].
+   <img width="494" height="378" alt="SS 04 PATH Environment" src="https://github.com/user-attachments/assets/a27cf883-93d2-430c-9f6b-ddf932eecf13" />[cite: 16]
+
+5. **Choosing SSH Executable:** Memilih *executable* SSH yang akan digunakan oleh Git (menggunakan OpenSSH eksternal)[cite: 17].
+   <img width="494" height="378" alt="SS 05 SSH Executable" src="https://github.com/user-attachments/assets/0ee1b4aa-7132-4752-bf1c-d78ecfbcbc82" />[cite: 17]
+
+6. **Choosing HTTPS Transport Backend:** Memilih pustaka SSL/TLS untuk koneksi HTTPS (*Windows Secure Channel library*).
+   <img width="494" height="378" alt="SS 06 HTTPS Transport" src="https://github.com/user-attachments/assets/1bd8f26a-4ee1-433e-953e-56cb2f248bbd" />
+
+7. **Configuring Line Ending Conversions:** Memilih format konversi baris akhir (*Checkout Windows-style, commit Unix-style line endings*).
+   <img width="494" height="378" alt="SS 07 Line Ending Conversions" src="https://github.com/user-attachments/assets/eef0cb2c-0e86-4f40-8b65-654876d7fb1b" />
+
+8. **Configuring Terminal Emulator:** Memilih emulator terminal yang akan digunakan dengan Git Bash (menggunakan MinTTY).
+   <img width="494" height="378" alt="SS 08 Terminal Emulator" src="https://github.com/user-attachments/assets/f4bfbbcc-21ca-43bc-b0c6-df27d530ee23" />
+
+9. **Choosing Default Behavior of Git Pull:** Memilih perilaku default saat menjalankan perintah `git pull` (*Merge*).
+   <img width="494" height="378" alt="SS 09 Git Pull Behavior" src="https://github.com/user-attachments/assets/e11e5fc2-921d-4eb7-a544-77e8a9390214" />
+
+10. **Choosing Credential Helper:** Memilih pengelola kredensial untuk menyimpan otentikasi Git (*Git Credential Manager*).
+    <img width="494" height="378" alt="SS 10 Credential Helper" src="https://github.com/user-attachments/assets/38ddfbd9-e64e-4e4f-bfa4-f44e59f42df1" />
 
 ---
 
