@@ -25,53 +25,99 @@
 
 #### 1. Instalasi Aplikasi Git (`01-install-git.md`)
 Proses instalasi Git for Windows dilakukan melalui wizard setup langkah demi langkah:
+# 01. Panduan Instalasi Git untuk Windows
 
-1. **Select Components:** Memilih komponen utama untuk diinstal seperti *Windows Explorer integration*, *Git LFS*, dan *Scalar*.
-<img width="781" height="579" alt="image" src="https://github.com/user-attachments/assets/1af36142-f912-4f06-b6f8-8766a3641a82" />
+Dokumen ini berisi panduan langkah demi langkah proses instalasi Git di sistem operasi Windows berdasarkan wizard instalasi resmi Git.
 
-2. **Choosing Default Editor:** Memilih editor teks default untuk Git (menggunakan Vim).
-<img width="769" height="589" alt="image" src="https://github.com/user-attachments/assets/78a2486d-c530-4e1d-8dab-164b8dd29e0a" />
+---
 
-3. **Adjusting Initial Branch Name:** Menentukan nama branch utama default untuk repositori baru menjadi `main`.
-<img width="797" height="613" alt="image" src="https://github.com/user-attachments/assets/8c3a773e-8f2c-419a-b1b9-4d4ce6fa088e" />
+## Langkah-Langkah Instalasi Git
 
-4. **Adjusting PATH Environment:** Mengatur integrasi Git pada Command Prompt dan perangkat lunak pihak ketiga (*Recommended*).
-<img width="798" height="609" alt="image" src="https://github.com/user-attachments/assets/76e1c3e9-5b1c-4b36-84f4-0ccda4437894" />
+### 1. Lisensi Penggunaan (GNU General Public License)
+![Langkah 1 - Lisensi GNU](images/01-license.png)
+* Baca informasi lisensi yang ditampilkan.
+* Klik tombol **Next** untuk melanjutkan.
 
-5. **Choosing SSH Executable:** Memilih *executable* SSH yang akan digunakan oleh Git (menggunakan OpenSSH eksternal).
-<img width="761" height="585" alt="image" src="https://github.com/user-attachments/assets/518a52aa-2dad-407e-92e1-e776fb71ad6d" />
+### 2. Memilih Komponen (Select Components)
+![Langkah 2 - Select Components](images/02-components.png)
+* Pilih komponen yang ingin diinstal (pengaturan default sudah direkomendasikan):
+  * `Windows Explorer integration` (Open Git Bash / Open Git GUI)
+  * `Git LFS (Large File Support)`
+  * `Associate .git* configuration files`
+  * `Associate .sh files to be run with Bash`
+  * `Scalar (Git add-on to manage large-scale repositories)`
+* Klik tombol **Next**.
 
-6. **Choosing HTTPS Transport Backend:** Memilih pustaka SSL/TLS untuk koneksi HTTPS (*Windows Secure Channel library*).
-<img width="775" height="593" alt="image" src="https://github.com/user-attachments/assets/0fad8183-3fa2-4d45-b4c8-92ac213250a1" />
+### 3. Memilih Editor Bawaan (Choosing the default editor used by Git)
+![Langkah 3 - Default Editor](images/03-editor.png)
+* Tentukan editor yang akan digunakan oleh Git (misalnya: *Vim*, *VS Code*, dll.).
+* Klik tombol **Next**.
 
-7. **Configuring Line Ending Conversions:** Memilih format konversi baris akhir (*Checkout Windows-style, commit Unix-style line endings*).
-<img width="810" height="621" alt="image" src="https://github.com/user-attachments/assets/1399c1be-7d5d-4000-a804-a5d1c764e378" />
+### 4. Mengatur Nama Branch Utama (Adjusting the name of the initial branch in new repositories)
+![Langkah 4 - Initial Branch Name](images/04-branch-name.png)
+* Pilih **Override the default branch name for new repositories**.
+* Ketikkan nama branch utama yang diinginkan, yaitu `main`.
+* Klik tombol **Next**.
 
-8. **Configuring Terminal Emulator:** Memilih emulator terminal yang akan digunakan dengan Git Bash (menggunakan MinTTY).
-<img width="820" height="627" alt="image" src="https://github.com/user-attachments/assets/c8d660a6-905e-41b4-9e3d-389e30f0598a" />
+### 5. Mengatur Environment PATH (Adjusting your PATH environment)
+![Langkah 5 - Adjusting PATH](images/05-path.png)
+* Pilih opsi **Git from the command line and also from 3rd-party software** (Direkomendasikan agar Git bisa diakses dari Command Prompt, PowerShell, maupun software pihak ketiga).
+* Klik tombol **Next**.
 
-9. **Choosing Default Behavior of Git Pull:** Memilih perilaku default saat menjalankan perintah `git pull` (*Merge*).
-<img width="806" height="621" alt="image" src="https://github.com/user-attachments/assets/8604dab3-b333-4e5c-9139-50c55d5596c4" />
+### 6. Memilih Executable SSH (Choosing the SSH executable)
+![Langkah 6 - Choosing SSH Executable](images/06-ssh.png)
+* Pilih opsi **Use external OpenSSH** (Menggunakan SSH eksternal bawaan sistem).
+* Klik tombol **Next**.
 
-10. **Choosing Credential Helper:** Memilih pengelola kredensial default untuk menyimpan otentikasi Git (*Git Credential Manager*).
-<img width="818" height="629" alt="image" src="https://github.com/user-attachments/assets/07465599-c67d-40ff-a4e6-3d904a95adf7" />
+### 7. Memilih Transport Backend HTTPS (Choosing HTTPS transport backend)
+![Langkah 7 - HTTPS Transport Backend](images/07-https.png)
+* Pilih opsi **Use the native Windows Secure Channel library** (Menggunakan sertifikat keamanan dari Windows Certificate Stores).
+* Klik tombol **Next**.
 
-11. **Configuring Extra Options:** Mengaktifkan opsi *file system caching* (`core.fscache`) untuk meningkatkan performa.
-<img width="801" height="616" alt="image" src="https://github.com/user-attachments/assets/f3cd30fb-cea5-41f1-971e-da7a269a6c2e" />
+### 8. Konversi Line Ending (Configuring the line ending conversions)
+![Langkah 8 - Line Ending Conversions](images/08-line-endings.png)
+* Pilih opsi **Checkout Windows-style, commit Unix-style line endings** (`core.autocrlf = true`).
+* Klik tombol **Next**.
 
-12. **Installing:** Proses penyalinan dan ekstraksi berkas instalasi Git ke dalam sistem.
-<img width="814" height="617" alt="image" src="https://github.com/user-attachments/assets/42b83239-fcac-4ca4-9f93-4549e17b4f57" />
+### 9. Memilih Terminal Emulator untuk Git Bash (Configuring the terminal emulator to use with Git Bash)
+![Langkah 9 - Terminal Emulator](images/09-terminal.png)
+* Pilih opsi **Use MinTTY (the default terminal of MSYS2)**.
+* Klik tombol **Next**.
 
-13. **Completing the Git Setup Wizard:** Proses instalasi Git telah selesai dilakukan.
-<img width="793" height="607" alt="image" src="https://github.com/user-attachments/assets/386848c2-df5a-4959-a636-31106b83d847" />
+### 10. Menentukan Perilaku `git pull` (Choose the default behavior of `git pull`)
+![Langkah 10 - Git Pull Behavior](images/10-git-pull.png)
+* Pilih opsi **Merge** (Membuat commit merge saat melakukan pull).
+* Klik tombol **Next**.
 
-14. **Uji Coba Perintah Git:** Memeriksa daftar perintah utama Git melalui Command Prompt dengan perintah `git`.
- <img width="797" height="607" alt="image" src="https://github.com/user-attachments/assets/27f5371d-8b3d-4e09-85d8-1ebe805e8a22" />
+### 11. Memilih Credential Helper (Choose a credential helper)
+![Langkah 11 - Credential Helper](images/11-credential-helper.png)
+* Pilih opsi **Git Credential Manager** (Untuk mempermudah autentikasi akun GitHub/Git provider lainnya).
+* Klik tombol **Next**.
 
-15. **Verifikasi Versi Git:** Memeriksa versi Git yang berhasil terpasang menggunakan perintah `git --version`.
- <img width="940" height="634" alt="image" src="https://github.com/user-attachments/assets/c3b94ffd-444b-4276-ab7e-66ea3046f253" />
+### 12. Konfigurasi Opsi Tambahan (Configuring extra options)
+![Langkah 12 - Extra Options](images/12-extra-options.png)
+* Centang opsi **Enable file system caching** (Meningkatkan performa pembacaan data).
+* Klik tombol **Install**.
 
-<img width="940" height="117" alt="image" src="https://github.com/user-attachments/assets/0e9d2232-f9eb-42ef-8a05-f011c16a24eb" />
+### 13. Proses Instalasi (Installing)
+![Langkah 13 - Installing Process](images/13-installing.png)
+* Tunggu beberapa saat hingga proses pengekstrakan dan pemasangan berkas selesai.
+
+### 14. Menyelesaikan Instalasi (Completing the Git Setup Wizard)
+![Langkah 14 - Setup Wizard Complete](images/14-finish.png)
+* Hilangkan centang pada *Launch Git Bash* jika tidak ingin langsung membukanya.
+* Klik tombol **Finish** untuk menutup wizard instalasi.
+
+---
+
+## Verifikasi Hasil Instalasi
+
+Setelah proses instalasi selesai, buka **Command Prompt (CMD)** atau **Terminal**, lalu jalankan perintah berikut untuk memastikan Git sudah terpasang dengan benar:
+
+### 1. Cek Perintah dan Opsi Git
+![Verifikasi Git Command](images/15-cmd-git.png)
+```bash
+git
 
 ---
 #### 2. Konfigurasi Git (`02-konfigurasi-git.md`)
