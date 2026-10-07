@@ -1,4 +1,3 @@
-# prak-dis-dec.
 # Laporan Praktikum Sistem Terdistribusi dan Terdesentralisasi
 ## Minggu 01: Pengenalan Sistem Terdistribusi dan Terdesentralisasi - Git dan GitHub
 
@@ -52,33 +51,44 @@ Proses instalasi Git for Windows dilakukan melalui wizard setup langkah demi lan
 Melakukan pengaturan identitas global pengguna pada terminal/Git Bash:
 1. **Konfigurasi Nama Pengguna:**
    * Perintah: `git config --global user.name "Naisyah Izzatul Jannah K."`
-   ![SS Config Name](tempel_SS_di_sini)
+  <img width="655" height="115" alt="image" src="https://github.com/user-attachments/assets/7778f080-4bc2-4cb4-974f-f9a14b1d6862" />
+
 2. **Konfigurasi Alamat Email:**
-   * Perintah: `git config --global user.email "email_kamu@gmail.com"`
-   ![SS Config Email](tempel_SS_di_sini)
+   * Perintah: `git config --global user.email "naisyahjannah@gmail.com"`
+  <img width="650" height="137" alt="image" src="https://github.com/user-attachments/assets/9cf22a70-a28a-43c1-ae11-4641b4e6a226" />
+
 3. **Pengecekan Daftar Konfigurasi:**
    * Perintah: `git config --list`
-   ![SS Config List](tempel_SS_di_sini)
+ <img width="649" height="427" alt="image" src="https://github.com/user-attachments/assets/30683519-004a-4dea-9b0f-a8cd25f4df71" />
 
 ---
 
 #### 3. Mengelola Repository Sendiri - Akun Pribadi (`03-mengelola-repo-sendiri-account.md`)
-Melakukan latihan perintah dasar Git pada repository lokal dan akun pribadi:
-1. **Inisialisasi Repository Lokal:**
+Melakukan pendaftaran akun dan latihan perintah dasar Git pada repository lokal:
+1. **Pendaftaran Akun GitHub:**
+   Pengisian form pendaftaran akun baru pada situs GitHub dengan username `naisyah-jannah22`. Terjadi kendala aturan penulisan username yang kemudian berhasil diselesaikan hingga valid.
+   <img width="958" height="538" alt="image" src="https://github.com/user-attachments/assets/67b27443-cac6-4cd0-9545-c7c23c3edc5d" />
+
+2. **Inisialisasi Repository Lokal:**
    * Perintah: `git init`
-   ![SS Git Init](tempel_SS_di_sini)
-2. **Memeriksa Status Pelacakan:**
+   <img width="504" height="241" alt="image" src="https://github.com/user-attachments/assets/de007b55-7a7e-4051-8b3a-db79bbca1336" />
+
+3. **Memeriksa Status Pelacakan:**
    * Perintah: `git status`
-   ![SS Git Status](tempel_SS_di_sini)
-3. **Menambahkan File ke Staging Area:**
+  <img width="546" height="259" alt="image" src="https://github.com/user-attachments/assets/93fdd9a5-c95f-4d5c-875f-a84203d8dac6" />
+
+4. **Menambahkan File ke Staging Area:**
    * Perintah: `git add .`
-   ![SS Git Add](tempel_SS_di_sini)
-4. **Menyimpan Perubahan (Commit):**
+   <img width="346" height="186" alt="image" src="https://github.com/user-attachments/assets/b3f6357b-042a-441d-8b96-6b4c5c033f3e" />
+
+5. **Menyimpan Perubahan (Commit):**
    * Perintah: `git commit -m "Membuat laporan minggu 01"`
-   ![SS Git Commit](tempel_SS_di_sini)
-5. **Melihat Riwayat Commit:**
+  <img width="724" height="206" alt="image" src="https://github.com/user-attachments/assets/8879925b-e661-429b-9a98-c925f055fb2d" />
+
+6. **Melihat Riwayat Commit:**
    * Perintah: `git log --oneline`
-   ![SS Git Log](tempel_SS_di_sini)
+   <img width="682" height="241" alt="image" src="https://github.com/user-attachments/assets/119e0737-51b0-4cb4-8bc5-8adda0491d35" />
+
 
 ---
 
@@ -120,8 +130,8 @@ Melakukan simulasi dan praktik alur kerja kolaborasi proyek open-source/tim di G
 ---
 
 ### D. Hasil Praktikum & Link Pengumpulan
-* **URL Repository Utama:** `https://github.com/naisyahizzatul25-tech/prak-dis-dec`
-* **URL Laporan Minggu 1:** `https://github.com/naisyahizzatul25-tech/prak-dis-dec/tree/main/01`
+* **URL Repository Utama:** `https://github.com/naisyah-jannah22/prak-dis-dec`
+* **URL Laporan Minggu 1:** `https://github.com/naisyah-jannah22/prak-dis-dec/tree/main/01`
 
 ---
 
