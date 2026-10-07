@@ -154,7 +154,7 @@ Melakukan pengaturan identitas global pengguna pada terminal/Git Bash:
 
 ---
 
-#### 3. Mengelola Repository Sendiri - Akun Pribadi (`03-mengelola-repo-sendiri-account.md`)
+# 3. Mengelola Repo Sendiri di Account Sendiri
 Melakukan pendaftaran akun dan latihan perintah dasar Git pada repository lokal:
 1. **Pendaftaran Akun GitHub:**
    Pengisian form pendaftaran akun baru pada situs GitHub dengan username `naisyah-jannah22`. Terjadi kendala aturan penulisan username yang kemudian berhasil diselesaikan hingga valid.
