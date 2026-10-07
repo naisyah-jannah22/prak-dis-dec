@@ -133,17 +133,21 @@ Setelah proses instalasi selesai, buka **Command Prompt (CMD)** atau **Terminal*
 
 
 ---
-2. **Inisialisasi Repository Lokal:**
+
+# 02. Konfigurasi Awal Git
+
+Melakukan pengaturan identitas global pengguna pada terminal/Git Bash:
+1. **Inisialisasi Repository Lokal:**
    * Perintah: `git init`
 
 ![git init](https://github.com/user-attachments/assets/de007b55-7a7e-4051-8b3a-db79bbca1336)
 
-3. **Memeriksa Status Pelacakan:**
+2. **Memeriksa Status Pelacakan:**
    * Perintah: `git status`
 
 ![git status](https://github.com/user-attachments/assets/93fdd9a5-c95f-4d5c-875f-a84203d8dac6)
 
-4. **Menambahkan File ke Staging Area:**
+3. **Menambahkan File ke Staging Area:**
    * Perintah: `git add .`
 
 ![git add](https://github.com/user-attachments/assets/b3f6357b-042a-441d-8b96-6b4c5c033f3e)
