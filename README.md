@@ -27,53 +27,53 @@
 Proses instalasi Git for Windows dilakukan melalui wizard setup langkah demi langkah:
 
 1. **Select Components:** Memilih komponen utama untuk diinstal seperti *Windows Explorer integration*, *Git LFS*, dan *Scalar*.
-   
-   <img width="494" height="378" alt="SS 01 Select Components" src="https://github.com/user-attachments/assets/97c9cc5a-c238-4550-a092-a17c5b6eddd7" />
+<img width="781" height="579" alt="image" src="https://github.com/user-attachments/assets/1af36142-f912-4f06-b6f8-8766a3641a82" />
 
-2. **Choosing Default Editor:** Memilih editor teks default untuk Git (menggunakan Vim)
-   <img width="769" height="589" alt="image" src="https://github.com/user-attachments/assets/26c742ed-92d2-4a56-b1a4-78ab70d9e64d" />
+2. **Choosing Default Editor:** Memilih editor teks default untuk Git (menggunakan Vim).
+<img width="769" height="589" alt="image" src="https://github.com/user-attachments/assets/78a2486d-c530-4e1d-8dab-164b8dd29e0a" />
 
-3. **Adjusting Initial Branch Name:** Menentukan nama branch utama default untuk repositori baru menjadi `main.
-   <img width="797" height="613" alt="image" src="https://github.com/user-attachments/assets/5ba6132a-20a5-4497-89b8-95425a52450c" />
+3. **Adjusting Initial Branch Name:** Menentukan nama branch utama default untuk repositori baru menjadi `main`.
+<img width="797" height="613" alt="image" src="https://github.com/user-attachments/assets/8c3a773e-8f2c-419a-b1b9-4d4ce6fa088e" />
 
-4. **Adjusting PATH Environment:** Mengatur integrasi Git pada Command Prompt dan perangkat lunak pihak ketiga (*Recommended*)
-   <img width="798" height="609" alt="image" src="https://github.com/user-attachments/assets/f925ad52-023c-4bff-ba2b-d3167f9118be" />
+4. **Adjusting PATH Environment:** Mengatur integrasi Git pada Command Prompt dan perangkat lunak pihak ketiga (*Recommended*).
+<img width="798" height="609" alt="image" src="https://github.com/user-attachments/assets/76e1c3e9-5b1c-4b36-84f4-0ccda4437894" />
 
 5. **Choosing SSH Executable:** Memilih *executable* SSH yang akan digunakan oleh Git (menggunakan OpenSSH eksternal).
-  <img width="761" height="585" alt="image" src="https://github.com/user-attachments/assets/db620e02-6a6e-4c10-908f-051742664ad9" />
+<img width="761" height="585" alt="image" src="https://github.com/user-attachments/assets/518a52aa-2dad-407e-92e1-e776fb71ad6d" />
 
 6. **Choosing HTTPS Transport Backend:** Memilih pustaka SSL/TLS untuk koneksi HTTPS (*Windows Secure Channel library*).
-   <img width="775" height="593" alt="image" src="https://github.com/user-attachments/assets/b757916b-a50c-453f-b526-a15ac7c6024a" />
+<img width="775" height="593" alt="image" src="https://github.com/user-attachments/assets/0fad8183-3fa2-4d45-b4c8-92ac213250a1" />
 
 7. **Configuring Line Ending Conversions:** Memilih format konversi baris akhir (*Checkout Windows-style, commit Unix-style line endings*).
-   <img width="810" height="621" alt="image" src="https://github.com/user-attachments/assets/c2e8e463-055d-4308-a3c5-ae89b1ea159a" />
+<img width="810" height="621" alt="image" src="https://github.com/user-attachments/assets/1399c1be-7d5d-4000-a804-a5d1c764e378" />
 
 8. **Configuring Terminal Emulator:** Memilih emulator terminal yang akan digunakan dengan Git Bash (menggunakan MinTTY).
-   <img width="820" height="627" alt="image" src="https://github.com/user-attachments/assets/36d45c36-9c7a-4ce4-828b-51de0fe0f05e" />
+<img width="820" height="627" alt="image" src="https://github.com/user-attachments/assets/c8d660a6-905e-41b4-9e3d-389e30f0598a" />
 
 9. **Choosing Default Behavior of Git Pull:** Memilih perilaku default saat menjalankan perintah `git pull` (*Merge*).
-  <img width="806" height="621" alt="image" src="https://github.com/user-attachments/assets/fd18abf1-659f-4f7d-9005-1a781fa53ee5" />
+<img width="806" height="621" alt="image" src="https://github.com/user-attachments/assets/8604dab3-b333-4e5c-9139-50c55d5596c4" />
 
-10. **Choosing Credential Helper:** Memilih pengelola kredensial untuk menyimpan otentikasi Git (*Git Credential Manager*).
-    <img width="818" height="629" alt="image" src="https://github.com/user-attachments/assets/89d0eaab-a64a-4354-a835-93e5535c712a" />
-    
+10. **Choosing Credential Helper:** Memilih pengelola kredensial default untuk menyimpan otentikasi Git (*Git Credential Manager*).
+<img width="818" height="629" alt="image" src="https://github.com/user-attachments/assets/07465599-c67d-40ff-a4e6-3d904a95adf7" />
+
 11. **Configuring Extra Options:** Mengaktifkan opsi *file system caching* (`core.fscache`) untuk meningkatkan performa.
-   <img width="801" height="616" alt="image" src="https://github.com/user-attachments/assets/10c0d2d5-36c7-4159-95de-dcbdbadff663" />
+<img width="801" height="616" alt="image" src="https://github.com/user-attachments/assets/f3cd30fb-cea5-41f1-971e-da7a269a6c2e" />
 
 12. **Installing:** Proses penyalinan dan ekstraksi berkas instalasi Git ke dalam sistem.
-   <img width="814" height="617" alt="image" src="https://github.com/user-attachments/assets/bce0f155-c925-47a7-8d06-206e60ebc5b6" />
+<img width="814" height="617" alt="image" src="https://github.com/user-attachments/assets/42b83239-fcac-4ca4-9f93-4549e17b4f57" />
 
 13. **Completing the Git Setup Wizard:** Proses instalasi Git telah selesai dilakukan.
-    <img width="793" height="607" alt="image" src="https://github.com/user-attachments/assets/76ce364f-daa7-4fc6-b66e-6b9e14d9bc62" />
+<img width="793" height="607" alt="image" src="https://github.com/user-attachments/assets/386848c2-df5a-4959-a636-31106b83d847" />
 
 14. **Uji Coba Perintah Git:** Memeriksa daftar perintah utama Git melalui Command Prompt dengan perintah `git`.
-    <img width="797" height="607" alt="image" src="https://github.com/user-attachments/assets/3aeac7fc-59c9-46ef-8651-67fe81961a4c" />
+ <img width="797" height="607" alt="image" src="https://github.com/user-attachments/assets/27f5371d-8b3d-4e09-85d8-1ebe805e8a22" />
 
 15. **Verifikasi Versi Git:** Memeriksa versi Git yang berhasil terpasang menggunakan perintah `git --version`.
-    ![SS 15 Version Check](tempel_SS_di_sini) 
+ <img width="940" height="634" alt="image" src="https://github.com/user-attachments/assets/c3b94ffd-444b-4276-ab7e-66ea3046f253" />
+
+<img width="940" height="117" alt="image" src="https://github.com/user-attachments/assets/0e9d2232-f9eb-42ef-8a05-f011c16a24eb" />
 
 ---
-
 #### 2. Konfigurasi Git (`02-konfigurasi-git.md`)
 Melakukan pengaturan identitas global pengguna pada terminal/Git Bash:
 1. **Konfigurasi Nama Pengguna:**
@@ -115,7 +115,6 @@ Melakukan pendaftaran akun dan latihan perintah dasar Git pada repository lokal:
 6. **Melihat Riwayat Commit:**
    * Perintah: `git log --oneline`
    <img width="682" height="241" alt="image" src="https://github.com/user-attachments/assets/119e0737-51b0-4cb4-8bc5-8adda0491d35" />
-
 
 ---
 
