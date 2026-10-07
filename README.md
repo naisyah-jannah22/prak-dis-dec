@@ -131,8 +131,6 @@ Setelah proses instalasi selesai, buka **Command Prompt (CMD)** atau **Terminal*
 ### 1. Cek Perintah dan Opsi Git
 <img width="940" height="634" alt="image" src="https://github.com/user-attachments/assets/c6bc22af-c9bc-463e-9f6b-2d2ff5ca8c94" />
 
-```bash
-git
 
 ---
 2. **Inisialisasi Repository Lokal:**
