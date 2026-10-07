@@ -31,7 +31,7 @@ Proses instalasi Git for Windows dilakukan melalui wizard setup langkah demi lan
 2. **Select Destination Location:** Menentukan folder instalasi di `C:\Program Files\Git`.
    ![SS 02 Path](tempel_SS_di_sini)
 3. **Select Components:** Memilih komponen utama (Git Bash, Git GUI, dll).
-  <img width="494" height="378" alt="image" src="https://github.com/user-attachments/assets/97c9cc5a-c238-4550-a092-a17c5b6eddd7" />
+  img width="494" height="378" alt="image" src="https://github.com/user-attachments/assets/97c9cc5a-c238-4550-a092-a17c5b6eddd7" /><
 
 4. **Choosing Default Editor:** Memilih editor teks default untuk Git.
    ![SS 04 Editor](tempel_SS_di_sini)
