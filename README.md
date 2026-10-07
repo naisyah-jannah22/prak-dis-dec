@@ -135,19 +135,20 @@ Setelah proses instalasi selesai, buka **Command Prompt (CMD)** atau **Terminal*
 git
 
 ---
-#### 2. Konfigurasi Git (`02-konfigurasi-git.md`)
-Melakukan pengaturan identitas global pengguna pada terminal/Git Bash:
-1. **Konfigurasi Nama Pengguna:**
-   * Perintah: `git config --global user.name "Naisyah Izzatul Jannah K."`
-  <img width="655" height="115" alt="image" src="https://github.com/user-attachments/assets/7778f080-4bc2-4cb4-974f-f9a14b1d6862" />
+2. **Inisialisasi Repository Lokal:**
+   * Perintah: `git init`
 
-2. **Konfigurasi Alamat Email:**
-   * Perintah: `git config --global user.email "naisyahjannah@gmail.com"`
-  <img width="650" height="137" alt="image" src="https://github.com/user-attachments/assets/9cf22a70-a28a-43c1-ae11-4641b4e6a226" />
+![git init](https://github.com/user-attachments/assets/de007b55-7a7e-4051-8b3a-db79bbca1336)
 
-3. **Pengecekan Daftar Konfigurasi:**
-   * Perintah: `git config --list`
- <img width="649" height="427" alt="image" src="https://github.com/user-attachments/assets/30683519-004a-4dea-9b0f-a8cd25f4df71" />
+3. **Memeriksa Status Pelacakan:**
+   * Perintah: `git status`
+
+![git status](https://github.com/user-attachments/assets/93fdd9a5-c95f-4d5c-875f-a84203d8dac6)
+
+4. **Menambahkan File ke Staging Area:**
+   * Perintah: `git add .`
+
+![git add](https://github.com/user-attachments/assets/b3f6357b-042a-441d-8b96-6b4c5c033f3e)
 
 ---
 
